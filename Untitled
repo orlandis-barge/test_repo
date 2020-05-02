@@ -1,0 +1,29 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Os-5k-iMac:git_test_project o_barge$ ls
+first_script.R		git_test_project.Rproj
+(base) Os-5k-iMac:git_test_project o_barge$ run first_script
+bash: run: command not found
+(base) Os-5k-iMac:git_test_project o_barge$ Rscript first_script.R
+WARNING: ignoring environment value of R_HOME
+dyld: Library not loaded: @rpath/libreadline.6.2.dylib
+  Referenced from: /Users/o_barge/opt/anaconda3/lib/R/lib/libR.dylib
+  Reason: image not found
+Abort trap: 6
+(base) Os-5k-iMac:git_test_project o_barge$ print(a+b)
+bash: syntax error near unexpected token `a+b'
+(base) Os-5k-iMac:git_test_project o_barge$ print("hello")
+bash: syntax error near unexpected token `"hello"'
+(base) Os-5k-iMac:git_test_project o_barge$ print("hello")
+bash: syntax error near unexpected token `"hello"'
+(base) Os-5k-iMac:git_test_project o_barge$ 
+(base) Os-5k-iMac:git_test_project o_barge$ print("hello")
+bash: syntax error near unexpected token `"hello"'
+(base) Os-5k-iMac:git_test_project o_barge$ clear
+(base) Os-5k-iMac:git_test_project o_barge$ 
+(base) Os-5k-iMac:git_test_project o_barge$ }
+bash: syntax error near unexpected token `}'
+(base) Os-5k-iMac:git_test_project o_barge$ clear
+(base) Os-5k-iMac:git_test_project o_barge$ 
